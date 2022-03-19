@@ -1,0 +1,35 @@
+.quem_somos{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://64.media.tumblr.com/cde5f9054de2ded5f7a7ad18e0246155/3c8ffb1dc601d293-06/s1280x1920/23ff5a843d68b92ee4513aaebe1955b5569edfcc.jpg);
+    display: block;
+    justify-content:end ;
+    padding: 30px 30px 200px 30px;
+}
+
+.titulo{
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    margin: 20px;
+    font-weight: bold;
+}
+
+.texto_quem_somos{
+    padding-right: 6%;
+    padding-left: 6%;
+    font-family: 'Fredoka';
+    font-size: 1.9rem;
+    
+}
+
+.fale_conosco{
+    background:darkcyan;
+    padding: 3rem;
+}
+
+.fale_conosco-titulo{
+    
+}
+
+form label{
+    display: block;
+}

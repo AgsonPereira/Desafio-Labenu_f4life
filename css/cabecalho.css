@@ -1,7 +1,28 @@
 .cabecalho{
-    background-color: #132235;
+    background: #132235;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 20px;
+    
+
+  
 }
 
-.imagen_cabecalho{
+.logo_cabecalho{
+    height: 10rem;
+}
 
+.cabecalho_nav{
+   
+   
+}
+.cabecalho_lista{
+    display: inline-block;
+    margin: 1.5rem;
+    font-size: 2rem;
+    color:darkturquoise;
+    
 }

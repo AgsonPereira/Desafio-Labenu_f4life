@@ -1,34 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>F4Life - Alugue um Lar perto da sua universidade</title>
+        <meta name="description" content="F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias."> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/cabecalho.css">
-        <title>F4LIFE</title>
+        <link rel="stylesheet" href="css/principal.css">
+        <link rel="stylesheet" href="css/rodape.css">
+        
     </head>
+
     <body>
         <header class="cabecalho">
-            <img src="imagens/f4life.png" alt="Logo da f4life" class="imagen_cabecalho">
-            <nav>
+            <img src="imagens/f4life-logo.png" alt="Logo da f4life" class="logo_cabecalho">
+            <nav class="cabecalho_nav">
                 <ul>
-                    <li><a href="#">Quem Somos</a></li>
-                    <li><a href="#">Fale Conosco</a></li>
+                    <li class="cabecalho_lista"><a href="#">Quem Somos</a></li>
+                    <li class="cabecalho_lista"><a href="#">Fale Conosco</a></li>
                 </ul>
             </nav>
         </header>
+
         <main>
             <section class="quem_somos">
-                <h1 class="titulo_quem_somos">Quem Somos</h1>
-                <p>F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias. 
+                <h1 class="titulo">Quem Somos</h1>
+                <p class="texto_quem_somos">F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias.<br><br> 
                     Similar aos modelos de Quinto Andar e Loft, 
                     a empresa realiza reformas e prepara moradias 
                     para recepção de pessoas universitárias em um ambiente específico 
                     e otimizado para a vida de graduação.</p>
             </section>
+
             <section class="fale_conosco">
-                <h1>Fale Conosco</h1>
+                <h2 class="titulo fale_conosco-titulo">Fale Conosco</h2>
 
                 <form>
                     <label for="nome">Nome</label>
@@ -40,24 +50,26 @@
                     <label for="mensagem">Mensagem</label>
                     <input type="email" id="mensagem">
 
-                    
+                    <input type="submit" value="Enviar >">
+         
                 </form>
                 
             </section>
 
         </main>
-       
-        
+
+        <footer class="rodape">
+            <img src="imagens/f4life-logo.png" alt="Logo da f4life" class="rodape_logo">
+            <ul class="lista_logos">
+                <li class="logo_redes_sociais"><a href="https://twitter.com/"><img src="imagens/twitter.png" alt="Logo do Twitter"></a></li>
+                <li class="logo_redes_sociais"><a href="https://www.instagram.com/"><img src="imagens/instagram.png" alt="Logo do Instagram"></a></li>
+                <li class="logo_redes_sociais"><a href="https://www.facebook.com/"><img src="imagens/facebook.png" alt="Logo do facebook"></a></li>
+            </ul>
+            
+    
+    
+        </footer>
+          
     </body>
-    <footer class="rodape">
-        <img src="imagens/f4life.png" alt="Logo da f4life" class="rodape_logo">
-        <ul>
-            <li><a href="https://twitter.com/"><img src="imagens/Logo-twitter.jpg" alt="Logo do Twitter"></a></li>
-            <li><a href="https://www.instagram.com/"><img src="imagens/Logo-instagram.jpg" alt="Logo do Instagram"></a></li>
-            <li><a href="https://www.facebook.com/"><img src="imagens/Logo-facebook.jpg" alt="Logo do facebook"></a></li>
-        </ul>
-        
-
-
-    </footer>
+   
     </html>
