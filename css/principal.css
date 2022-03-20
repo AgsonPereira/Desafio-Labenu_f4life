@@ -11,6 +11,8 @@
     font-family: 'Montserrat';
     margin: 20px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 .texto_quem_somos{
@@ -30,6 +32,22 @@
     
 }
 
+form{
+   
+}
+
 form label{
     display: block;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+form input, textarea{
+    display: block;
+    padding: 10px 15px;
+    margin: 8px;
+    width: 25%;
+    border: none;
+    border-radius: 10px;
 }
