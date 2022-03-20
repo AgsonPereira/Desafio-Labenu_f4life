@@ -2,7 +2,7 @@
 Desafio do processo seletivo da Labeu => F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias.
 
 
-
+Visualize o projeto em: https://tkuq51.csb.app/
 
 https://user-images.githubusercontent.com/93625964/159173183-5296c483-0f34-4832-9a43-49281112ddfc.mp4
 
